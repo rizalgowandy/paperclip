@@ -16,10 +16,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paperclipai/paperclip.git",
+    "url": "https://github.com/paperclipai/paperclip",
     "directory": "cli"
   },
   "homepage": "https://github.com/paperclipai/paperclip",
+  "bugs": {
+    "url": "https://github.com/paperclipai/paperclip/issues"
+  },
   "files": [
     "dist"
   ],
@@ -34,6 +37,7 @@
   },
   "dependencies": {
     "@clack/prompts": "^0.10.0",
+    "@paperclipai/adapter-acpx-local": "workspace:*",
     "@paperclipai/adapter-claude-local": "workspace:*",
     "@paperclipai/adapter-codex-local": "workspace:*",
     "@paperclipai/adapter-cursor-local": "workspace:*",
